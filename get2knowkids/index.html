@@ -1,0 +1,294 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="apple-touch-icon" href="icon.png">
+    <!-- Place favicon.ico in the root directory -->
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-slider/9.9.0/css/bootstrap-slider.min.css">
+    <style>
+        @font-face {
+            font-family: 'helvetica_roundedbold';
+            src: url(/fonts/32F682_0_0.eot);
+            src: url(/fonts/32F682_0_0.eot#iefix) format('embedded-opentype'), url(/fonts/32F682_0_0.woff2) format('woff2'), url(/fonts/32F682_0_0.woff) format('woff'), url(/fonts/32F682_0_0.ttf) format('truetype');
+            font-weight: normal;
+            font-style: normal
+        }
+        
+        @font-face {
+            font-family: 'HelveticaRounded';
+            src: url(/fonts/32F682_0_0.eot);
+            src: url(/fonts/32F682_0_0.eot#iefix) format('embedded-opentype'), url(/fonts/32F682_0_0.woff2) format('woff2'), url(/fonts/32F682_0_0.woff) format('woff'), url(/fonts/32F682_0_0.ttf) format('truetype');
+            font-weight: normal;
+            font-style: normal
+        }
+        
+        @font-face {
+            font-family: 'HelveticaNeue-MediumItalic';
+            src: url(/fonts/32F682_1_0.eot);
+            src: url(/fonts/32F682_1_0.eot#iefix) format('embedded-opentype'), url(/fonts/32F682_1_0.woff2) format('woff2'), url(/fonts/32F682_1_0.woff) format('woff'), url(/fonts/32F682_1_0.ttf) format('truetype');
+            font-weight: 500
+        }
+        
+        @font-face {
+            font-family: 'HelveticaNeue';
+            src: url(/fonts/32F682_3_0.eot);
+            src: url(/fonts/32F682_3_0.eot#iefix) format('embedded-opentype'), url(/fonts/32F682_3_0.woff2) format('woff2'), url(/fonts/32F682_3_0.woff) format('woff'), url(/fonts/32F682_3_0.ttf) format('truetype')
+        }
+        
+        @font-face {
+            font-family: 'HelveticaRounded-Obl';
+            src: url(/fonts/32F682_5_0.eot);
+            src: url(/fonts/32F682_5_0.eot#iefix) format('embedded-opentype'), url(/fonts/32F682_5_0.woff2) format('woff2'), url(/fonts/32F682_5_0.woff) format('woff'), url(/fonts/32F682_5_0.ttf) format('truetype')
+        }
+        
+        @font-face {
+            font-family: 'HelveticaRoundedLTStd-Bd';
+            -webkit-font-smoothing: antialiased;
+            src: url(/fonts/32F682_0_0.eot);
+            src: url(/fonts/32F682_0_0.eot#iefix) format('embedded-opentype'), url(/fonts/32F682_0_0.woff2) format('woff2'), url(/fonts/32F682_0_0.woff) format('woff'), url(/fonts/32F682_0_0.ttf) format('truetype')
+        }
+        
+        @font-face {
+            font-family: 'HelveticaNeueLTStd-MdIt';
+            -webkit-font-smoothing: antialiased;
+            src: url(/fonts/32F682_1_0.eot);
+            src: url(/fonts/32F682_1_0.eot#iefix) format('embedded-opentype'), url(/fonts/32F682_1_0.woff2) format('woff2'), url(/fonts/32F682_1_0.woff) format('woff'), url(/fonts/32F682_1_0.ttf) format('truetype')
+        }
+        
+        @font-face {
+            font-family: 'HelveticaNeueLTStd-Bd';
+            -webkit-font-smoothing: antialiased;
+            src: url(/fonts/32F682_2_0.eot);
+            src: url(/fonts/32F682_2_0.eot#iefix) format('embedded-opentype'), url(/fonts/32F682_2_0.woff2) format('woff2'), url(/fonts/32F682_2_0.woff) format('woff'), url(/fonts/32F682_2_0.ttf) format('truetype')
+        }
+        
+        @font-face {
+            font-family: 'HelveticaNeueLTStd-Md';
+            -webkit-font-smoothing: antialiased;
+            src: url(/fonts/32F682_4_0.eot);
+            src: url(/fonts/32F682_4_0.eot#iefix) format('embedded-opentype'), url(/fonts/32F682_4_0.woff2) format('woff2'), url(/fonts/32F682_4_0.woff) format('woff'), url(/fonts/32F682_4_0.ttf) format('truetype')
+        }
+        
+        @font-face {
+            font-family: 'HelveticaNeueLTStd-It';
+            -webkit-font-smoothing: antialiased;
+            src: url(/fonts/32F682_5_0.eot);
+            src: url(/fonts/32F682_5_0.eot#iefix) format('embedded-opentype'), url(/fonts/32F682_5_0.woff2) format('woff2'), url(/fonts/32F682_5_0.woff) format('woff'), url(/fonts/32F682_5_0.ttf) format('truetype')
+        }
+        
+        body {
+            min-height: 1200px;
+        }
+        
+        .wrapper {
+            padding: 0px 40px 00px 40px;
+            width: 67%;
+            margin: auto;
+            font-family: HelveticaNeue;
+        }
+        
+        .kid-image-wrapper,
+        .links-wrapper {
+            width: 50%;
+            float: left;
+            position: relative;
+            display: inline;
+            font-family: HelveticaNeue;
+            padding-top: 2px;
+        }
+        
+        .links-wrapper {
+            padding-top: 20px;
+        }
+        
+        #kid-image {
+            margin: 0px 0px -10px 160px;
+            height: 270px;
+        }
+        
+        .age-picker {
+            width: 100%;
+            clear: both;
+            display: block;
+        }
+        
+        .gender {
+            width: 40%;
+            display: block;
+            margin-bottom: 20px;
+            font-size: 22px;
+            padding: 5px;
+        }
+        
+        .header img {
+            width: 100%;
+        }
+        
+        .tooltip-inner {
+            display: none;
+        }
+        
+        a {
+            font-family: helvetica_roundedbold;
+            color: #71757b;
+            font-size: 24px;
+            line-height: 40px;
+            list-style-type: none;
+            padding-left: 10px;
+        }
+        
+        .slider.slider-horizontal {
+            width: 450px;
+        }
+        
+        .age-count {
+            font-family: HelveticaNeue;
+        }
+        
+        .links-title {
+            font-family: HelveticaNeue;
+            font-size: 30px;
+            color: #71757b;
+        }
+        
+        .identity-label {
+            font-size: 20px;
+            margin-bottom: 8px;
+            display: block;
+        }
+
+    </style>
+
+</head>
+
+<body>
+    <!--[if lte IE 9]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+        <![endif]-->
+
+    <!-- Add your site or application content here -->
+    <div class="header">
+        <img src="img/header.png">
+    </div>
+
+    <div class="wrapper">
+        <div class="kid-image-wrapper">
+            <span class="identity-label">I identify as a:</span>
+            <select class="gender" name="gender">
+                <option value="male" selected-"true">Boy</option>
+                <option value="female">Girl</option>
+            </select>
+            <img id="kid-image" src="img/guy-1.png"> </div>
+        <div class='links-title'>Answers for <span class="age">8</span> year old <span class="gender-text">boys</span>:</div>
+        <div class="links-wrapper">
+            <a href="https://kidshelpphone.ca/article/what-bullying-0">
+           
+            What is Bullying?</a> <br><a href="https://kidshelpphone.ca/article/what-bullying-0">What to do if you're experiencing bullying</a> <br><a href="https://kidshelpphone.ca/article/what-bullying-0">How to build friendships</a></div>
+        <div class="age-picker">
+            <div class="age-count"><span>Age:</span>
+                <span class="age">
+                    8
+                    </span>
+            </div>
+            <div class="slider">
+                <input id="slider" data-slider-id='ex1Slider' type="text" data-slider-min="5" data-slider-max="16" data-slider-step="1" data-slider-value="8" width="100%" />
+            </div>
+        </div>
+
+
+
+    </div>
+    <script src="js/vendor/modernizr-3.5.0.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script src="js/link-data.js"></script>
+    <script>
+        window.jQuery || document.write('<script src="js/vendor/jquery-3.2.1.min.js"><\/script>')
+
+    </script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-slider/9.9.0/bootstrap-slider.min.js"></script>
+
+    <script>
+        $(document).ready(function() {
+            $('#abc').append(getArticles("Female", 15));
+        });
+
+        $('select.gender').change(function() {
+            updateKid();
+            if ($(this).val() == "male") {
+                $('.gender-text').html("boys");
+            } else {
+                $('.gender-text').html("girls");
+            }
+        });
+
+
+        // Instantiate a slider
+        var mySlider = $("input#slider").slider();
+
+        mySlider.on('slide', updateKid);
+
+        function updateKid() {
+
+            var mySlider = $("input#slider");
+            var age = mySlider.val();
+            $('.age').html(age);
+            var gender = $('select.gender').val();
+            if (gender == "male") {
+                if (age <= 8) {
+                    $('#kid-image').attr("src", "img/guy-1.png");
+                } else if (age > 8 && age < 14) {
+                    $('#kid-image').attr("src", "img/guy-2.png");
+                } else {
+                    $('#kid-image').attr("src", "img/guy-3.png");
+                }
+            }
+            if (gender == "female") {
+                if (age <= 8) {
+                    $('#kid-image').attr("src", "img/girl-1.png");
+                } else if (age > 8 && age < 14) {
+                    $('#kid-image').attr("src", "img/girl-2.png");
+                } else {
+                    $('#kid-image').attr("src", "img/girl-3.png");
+                }
+
+            }
+
+            var word = getArticles(gender, age);
+            $('.links-wrapper').html(word);
+
+
+        }
+
+        function updateLinks() {
+
+        }
+
+    </script>
+
+    <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+    <script>
+        window.ga = function() {
+            ga.q.push(arguments)
+        };
+        ga.q = [];
+        ga.l = +new Date;
+        ga('create', 'UA-XXXXX-Y', 'auto');
+        ga('send', 'pageview')
+
+    </script>
+    <script src="https://www.google-analytics.com/analytics.js" async defer></script>
+</body>
+
+</html>
