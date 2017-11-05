@@ -26,7 +26,8 @@ As discussed with KHP representatives, they would expand their counselor live ch
     - Fundraising Target: $38,000/month
 
 ### Next Steps
-1. Implement slider widget on donation page
+1. Implement slider widget on donation page (mockup in repo)
+    - Selecting an amount will change how many boxes are coloured in the live-chat availability visualization
     - e.g. your $1000 donation can add an hour, donate with a friend ($500 each) to power another hour
 2. Run a community campaign to reach milestones for increasing helpline hours/availability
     - e.g. donations thermometer on website or in campaign emails
