@@ -19,6 +19,7 @@ The Kids Help Phone bot was developed using the [Dialog Flow interface](https://
 ### Possible enhancements:
 * Integrate with Watson to perform sentiment analysis
 * Have the CMS automatically push new "Intents" to the Dialog Flow agent through the API to automatically update the bot without needing Kids Help Phone staff involvement
+* Escalate to a counselor even if one is not available online the moment a kid sounds like they are in severe distress (e.g. direct SMS)
 
 ### Technical information on bridging between bot and counselor
 * We configured a Kik bot which can be scanned [here](https://api.kik.com/v1/code/ff5c982e78ef67f9db34253e0ae46af5f7f831ae)
