@@ -20,3 +20,5 @@ The team:
 * Ofer Guttman
 * Alexandra Badour
 * Hari Palani
+
+Please do not hesitate to reach out with any questions!
