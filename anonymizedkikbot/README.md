@@ -19,3 +19,8 @@ The Kids Help Phone bot was developed using the [Dialog Flow interface](https://
 ### Possible enhancements:
 * Integrate with Watson to perform sentiment analysis
 * Have the CMS automatically push new "Intents" to the Dialog Flow agent through the API to automatically update the bot without needing Kids Help Phone staff involvement
+
+### Technical information on bridging between bot and counselor
+* When the kid asks to talk to someone Dialog flow will make a call to the webhook [here](https://runkit.com/pts-mihnea/kids-help-phone/branches/master)
+* The webhook makes a call to a Google Spreadsheet which acts as the Agent Portal/Skype for Business [here](https://docs.google.com/spreadsheets/d/1jfBYN6mn-tvoapyD6yb3u4PaqpYPa6W2DLGrRa_ecPw/edit?usp=sharing)
+* When the agent replies, the Google Spreadsheet script calls to a Kik messaging API to send the kid a message in their chat window
