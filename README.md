@@ -2,7 +2,7 @@
 ## Points For Good at the Gift the Code Hackathon - Kids Help Phone
 *https://kidshelpphone.ca/*
 
-Counselors play a critical role in Kids Help Phone's ability to field calls and chats from kids across Canada. Today, counselors are on the phone 24/7, but wait times can be hour-long. Chat is available only during evenings Wed-Mon.
+Counselors play a critical role in Kids Help Phone's ability to field calls and chats from kids across Canada. Today, counselors are on the phone 24/7, but wait times can be hour-long. Live chat is available only during evenings Wed-Mon.
 
 As a team, we built 4 solutions to target the following levers:
 1. Increasing counselors' efficiency
