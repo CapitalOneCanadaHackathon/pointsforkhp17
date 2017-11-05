@@ -2,7 +2,7 @@ function getArticles (gender, age) {
   var data = {
     "M5": {
       "1": {
-        "title": "What is Bullying?",
+        "title": "What is bullying?",
         "link": "https://kidshelpphone.ca/article/what-bullying-0"
       },
       "2": {
